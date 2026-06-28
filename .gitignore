@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.env
+
+# PyCharm
+.idea/
+
+# 临时运行/调试产物
+*.log
+*.out
+*.err
+*.run.log
+*.run2.log
+demo.run*.log
+debug_*.py
+test_conn.py
+_cleanup.py
+w.out
+w.err
+
+# OS
+Thumbs.db
+.DS_Store
+
+local_settings.py
+
+# 嵌套 / 第三方目录，不作为本次作业内容上传
+.superpowers/
+saq_source/
+.opencode/
+.opencode.json
+.opencode.jsonc
+
+# 其它非作业产物
+main.py
+*.docx
